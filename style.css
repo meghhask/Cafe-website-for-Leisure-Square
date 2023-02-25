@@ -1,0 +1,136 @@
+body{
+  font-family: 'Roboto', sans-serif;
+   background-image: url("images/subs.jpg");
+    background-size:cover;
+    /* overflow: hidden; */
+    color: rgb(255, 245, 230);
+    font-weight: bolder;
+    height: 100vh;
+}
+/* .gif{
+    position: relative;
+    top:50px;
+    left: 20px;
+    height:200px;
+    width: 250px;
+} */
+/* .glass{
+    position:relative;
+    
+background: rgba(17, 17, 16, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(5px);
+border: 10px solid rgb(0, 0, 0);
+} */
+/* .gif1{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    left: 430px;
+    top:-460px;   
+} */
+.end{
+    position: relative;
+    bottom: -185px;
+    left:650px;
+}
+.info{
+    position: relative;
+    font-size: 1px;
+    font-weight: bolder;
+    top:-5px;
+    left:290px;
+}
+/* .info1{
+    font-size: 45px;
+    position: relative;
+    top: -1000px;
+    left:1000px;
+} */
+.button-86 {
+  left:40px;
+  all: unset;
+  width: 100px;
+  height: 22px;
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #54b2fa;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  bottom: 10px;
+  content: '';
+  position: absolute;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #83c5ff;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+#made{
+  position: relative;
+  bottom: -180px;
+  width:auto;
+  height: 40px;
+  left:-8px;
+  background: rgba(0, 0, 0, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(141, 136, 136, 0.1);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px transparent rgba(0, 0, 0, 0.3);
+}
+pre{
+  font-family: 'Concert One', cursive;
+  letter-spacing: 0.8px;
+  font-size: 40px;
+}
