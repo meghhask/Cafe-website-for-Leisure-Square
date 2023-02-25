@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  z-index: -1;
+  background-color:rgb(30, 10, 10);
+}
+html{
+  margin: 0;
+  
+}
+
+.header_text {
+  margin: 20px;
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: rgb(255, 160, 51)
+}
+
+.logo_text {
+  margin: 20px;
+  display: flex;
+  font-family: 'Alexandria', sans-serif;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  height: 134px;
+  align-items: center;
+  width: auto;
+}
+
+
+
+.text {
+  display: flex;
+  height: 134px;
+  align-items: center;
+  margin-left: 565px;
+  width: 2000px;
+}
+
+.header_img {
+  width: 141px;
+  height: 134px;
+}
+
+.about_text {
+  color: rgb(254, 150, 75);
+font-family: 'Poppins', sans-serif;
+position: absolute;
+margin-top: 70px;
+font-size: 40px;
+margin-left: 40px;
+letter-spacing: 1px;
+}
+
+.abt_desc{
+position: absolute;
+text-decoration: none;
+color: rgb(0, 0, 0);
+display: inline-block;
+margin-top:150px;
+margin-left: 40px;
+font-family: 'Comfortaa', cursive;
+letter-spacing: 2px;
+width: 46%;
+line-height: 40px;
+}
+
+.our_servc {
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  margin-top: 600px;
+  font-size: 40px;
+  margin-left: 40px;
+  letter-spacing: 1px
+}
+
+.fastdelivery {
+  position: relative;
+  margin-top: 680px;
+  margin-left: 40px;
+  border-radius: 10px;
+  width: 220px;
+  height: 170px;
+  box-shadow: 2px 2px 3px black, 0px 0px 0px black, 0px 0px 0px black;
+
+}
+
+.freshfood {
+  position: relative;
+  margin-top: 680px;
+  margin-left: 120px;
+  border-radius: 10px;
+  width: 210px;
+  height: 170px;
+  box-shadow: 2px 2px 3px black, 0px 0px 0px black, 0px 0px 0px black;
+}
+
+.healthyfood {
+  position: relative;
+  margin-top: 680px;
+  margin-left: 120px;
+  border-radius: 10px;
+  width: 210px;
+  height: 170px;
+  box-shadow: 2px 2px 3px black, 0px 0px 0px black, 0px 0px 0px black;
+}
+
+.background .img{
+  align-content: center;
+}
+
+.pizza-img {
+  float: right;
+  position: absolute;
+  width: 500px;
+  height: 550px;
+  left: 900px;
+  top: 170px;
+  right: 0;
+  display: flex;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px black, 0px 0px 0px black, 0px 0px 0px black;
+}
